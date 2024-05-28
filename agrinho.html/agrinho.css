@@ -3,7 +3,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-image: linear-gradient(to right, rgb(20, 168, 161) , rgb(24, 189, 38));
+    background-image: linear-gradient(to right, rgb(20, 168, 161) , rgb(97, 214, 179));
   }
   
   li {
@@ -20,19 +20,36 @@ ul {
   }
   
   li a:hover {
-    background-image: linear-gradient(to right, rgb(20, 168, 161) , rgb(24, 189, 38))
-  }
+  background-image: linear-gradient(to right, rgb(20, 168, 161) , rgb(97, 214, 179))
+}
 
-  iframe{
-    align-items: center;
-  }
+iframe{
+  align-items: center;
+}
 
 .a{
-    text-align: center;
+  text-align: center;
     
 }
 
 body{
-    background-image: -moz-linear-gradient(purple, lightblue);
+  background-image:radial-gradient( rgb(41, 243, 233) , rgb(97, 214, 179))
 }
 
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  
+}
+
+.texto {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.texto p {
+  margin-bottom: 2px;
+}
