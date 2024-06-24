@@ -1,25 +1,25 @@
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgb(20, 168, 161)
-  }
-  
-  li {
-    float: left
-
-  }
-  
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(20, 168, 161)
 }
   
-  li a:hover {
+li {
+  float: left
+
+}
+  
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+  
+li a:hover {
   background-image: linear-gradient(to right, rgb(20, 168, 161) , rgb(97, 214, 179))
 }
 
@@ -38,9 +38,10 @@ iframe{
 }
 
 article {
-  border: 1px solid #ccc;
+  border: 3px solid #00a80e;
   padding: 10px;
   margin-bottom: 20px;
+  border-radius: 20px;
 }
 
 body{
@@ -67,8 +68,12 @@ body{
   margin-bottom: 2px;
 }
 
+p,h2{
+  color: rgb(255, 255, 255);
+}
+
 footer {
-	background-color:rgb(97, 214, 179);
+	background-color:rgb(20, 168, 161);
 	padding: 0;
   padding-top: 5px;
 	text-align: center;
@@ -80,8 +85,12 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  
   color: rgb(0, 0, 0);
   text-align: center;
-  
+}
+
+.objetivo p{
+  display: flex;
+  flex: 50%;
+  flex-direction: column;
 }
