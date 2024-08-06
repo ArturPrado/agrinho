@@ -1,7 +1,7 @@
 ul {
     list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   overflow: hidden;
   background-color: rgb(20, 168, 161)
 }
@@ -23,21 +23,44 @@ li a:hover {
   background-image: linear-gradient(to right, rgb(20, 168, 161) , rgb(97, 214, 179))
 }
 
+.um{
+  flex: 40%;
+}
+
+.dois{
+  flex: 40%;
+}
+
+.tres{
+  flex: 40%;
+}
+
+
 iframe{
   align-items: center;
 }
 
 .banner {
   background-color:  rgb(20, 168, 161);
-  padding: 25px;
+  padding: 20px;
   text-align: center;
   text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
 
-.featured-article, .recent-articles {
+.recent-articles {
   padding: 30px;
   display: flex;
   flex-wrap: nowrap;
+  flex: 30%;
+}
+
+.featured-article{
+  display: block;
+  align-self: center;
+}
+.secao{
+  display: flex;
+  flex-direction: column;
 }
 
 article {
@@ -47,7 +70,7 @@ article {
   border-radius: 20px;
   color: white;
   align-items: center;
-  max-block-size: 500px;
+  max-block-size: 445px;
   margin: 30px;
 }
 
@@ -56,6 +79,10 @@ body{
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+}
+
+.molhado{
+  text-align: left;
 }
 
 .container {
@@ -115,4 +142,46 @@ footer {
 
 body,h2{
   text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .container {
+      padding: 10px;
+  }
+
+  .texto {
+      font-size: 14px;
+  }
+}
+
+
+ul {
+  width: 100%;
+  text-align: center;
+}
+
+li {
+  float: none;
+  display: inline-block;
+}
+
+li a {
+  padding: 10px 8px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  li {
+      float: none;
+      display: block;
+      text-align: center;
+  }
+
+  li a {
+      padding: 10px;
+  }
+
+  footer {
+      padding: 10px 0;
+  }
 }
